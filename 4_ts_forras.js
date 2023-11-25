@@ -23,3 +23,4 @@ function fuggvenyhivasPalindrom() {
 console.log(osszesOszto(szamok));
 console.log(parosDarab(szamok));
 console.log(fuggvenyhivasPalindrom());
+//
