@@ -2,7 +2,7 @@
 function osszesOszto(szamok:number):number[]{
     var oszthatoTomb:number[]=[];
     
-    for(var i:number=0;i<=szamok;i++){
+    for(var i:number=0;i<szamok;i++){
         if(szamok[i] % 1==0){
             oszthatoTomb.push(szamok[i]);
         }
