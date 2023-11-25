@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Unit teszt feladat</title>
+	<script type="text/javascript">
+	/*-- Ide jön  a feladat megoldása... */
+
+	function kivalogatParosOtven(number){
+		var parosOtven=[];
+		for(var i=0;i<number.length;i++){
+			if(number[i] % 2==0 && number[i]>50){
+				parosOtven.push(number[i]);
+			}
+		}
+		return [parosOtven];
+		
+	}
+	//console.log(kivalogatParosOtven([10, 20, 3, 5, 100, 50, 60, 53]));
+	
+	function aBetukSzamaDiv(){
+		var aBetu=0;
+		var divSzoveg="agi21bvg8ibvgavgvt3zv8gfzavgzuv9gzuavgzu55vgz";
+		for(var i=0;i<=divSzoveg.length;i++){
+			if(divSzoveg[i]=='a'){
+				aBetu++;
+			}
+		}
+		return aBetu;
+
+	}
+	// console.log(aBetukSzamaDiv());
+
+	function OsszeadasFeliras(eredmeny,bemenet1,bemenet2){
+
+		
+
+	}
+
+	
+	
+	
+	/*-- Idáig */
+	</script>
+	<script src="testBaseUnit.js"></script>
+</head>
+<body>
+	
+
+
+    <div></div>
+	<hr>
+	<div id="testResult">
+	<h2>Tesztek</h2></div>
+</body>
+</html>
